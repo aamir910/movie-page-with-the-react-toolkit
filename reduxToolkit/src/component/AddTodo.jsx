@@ -12,7 +12,7 @@ const AddTodo = () => {
      }
   return (
     <div>
-      <form onSubmit={addtodohandler}>
+      <form onSubmit={addtodohandler}> 
           
           <input type="text"
           placeholder='enter the todo'
